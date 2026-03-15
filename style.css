@@ -1,0 +1,28 @@
+body {
+ font-family: "Inter", sans-serif;
+ margin: 0;
+ background: #f8fafc;
+ color: #0f172a;
+}
+hero {
+ text-align: center;
+ padding: 80px 24px;
+ background: #f1f8f5;
+}
+btn {
+ display: inline-block;
+ padding: 12px 18px;
+ border-radius: 999px;
+}
+btn-primary {
+ background: #0f766e;
+ color: #fff;
+}
+features, .pricing {
+ display: grid;
+ gap: 24px;
+ grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+}
+plan.featured {
+ outline: 2px solid #0f766e;
+}
